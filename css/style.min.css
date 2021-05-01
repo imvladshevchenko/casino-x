@@ -973,7 +973,7 @@ body {
     width: 99.9125em;
   }
   .banner__left--yellow-arrow {
-    padding: 4px 0 0 34px;
+    padding: 1% 0 0 34px;
     width: 99.8125em;
     -webkit-transform: translate(5em, -2.975em);
     -ms-transform: translate(5em, -2.975em);
@@ -987,7 +987,7 @@ body {
     line-height: 1.24;
   }
   .banner__right--white-arrow {
-    padding: 0 0 0.5em 26em;
+    padding: 0 0 1% 26em;
     width: 78.8125em;
     -webkit-transform: translateX(26em);
     -ms-transform: translateX(26em);
@@ -1109,7 +1109,7 @@ body {
   .top-text {
     left: 3%;
     top: 22%;
-    line-height: 1;
+    line-height: 1.1;
     text-shadow: none;
   }
   .top-text > span {
@@ -1119,7 +1119,7 @@ body {
     text-shadow: none;
     top: 43%;
     left: 3%;
-    line-height: 1;
+    line-height: 1.1;
     text-align: right;
     margin-right: 13px;
   }
