@@ -1055,7 +1055,7 @@ body {
   }
   .banner__left--yellow-arrow {
     padding: 2% 0 0 34px;
-    width: 99.8125em;
+    width: 105.5%;
     -webkit-transform: translate(5em, -2.975em);
     -ms-transform: translate(5em, -2.975em);
     transform: translate(5em, -2.975em);
@@ -1069,7 +1069,7 @@ body {
   }
   .banner__right--white-arrow {
     padding: 0 0 1% 26em;
-    width: 78.8125em;
+    width: 70%;
     -webkit-transform: translateX(26em);
     -ms-transform: translateX(26em);
     transform: translateX(26em);
