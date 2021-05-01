@@ -568,7 +568,6 @@ body {
   font-size: 2.5em;
   font-weight: 700;
   font-stretch: normal;
-  font-style: italic;
   line-height: 1.5;
   letter-spacing: -1.2px;
   text-align: center;
@@ -619,7 +618,6 @@ body {
   font-size: 3.8em;
   font-weight: 700;
   font-stretch: normal;
-  font-style: italic;
   line-height: 0.67;
   letter-spacing: 1.8px;
   text-align: center;
@@ -633,7 +631,6 @@ body {
   font-size: 2.2375em;
   font-weight: 700;
   font-stretch: normal;
-  font-style: italic;
   line-height: 1.02;
   letter-spacing: normal;
   text-align: center;
@@ -651,7 +648,6 @@ body {
   font-size: 15.65em;
   font-weight: 700;
   font-stretch: normal;
-  font-style: italic;
   line-height: 0.16;
   letter-spacing: normal;
   text-align: center;
@@ -717,7 +713,6 @@ body {
   font-size: 2.625em;
   font-weight: 700;
   font-stretch: normal;
-  font-style: italic;
   line-height: 1.26;
   letter-spacing: normal;
   text-align: left;
@@ -730,7 +725,6 @@ body {
   font-size: 0.596em;
   font-weight: 700;
   font-stretch: normal;
-  font-style: italic;
   line-height: 1.8;
   letter-spacing: normal;
   text-align: left;
@@ -770,7 +764,6 @@ body {
   font-size: 1.9em;
   font-weight: 700;
   font-stretch: normal;
-  font-style: italic;
   letter-spacing: -0.9px;
   text-align: center;
   color: #fff;
@@ -815,7 +808,6 @@ body {
   font-size: 10.4em;
   font-weight: 700;
   font-stretch: normal;
-  font-style: italic;
   line-height: 0.85;
   letter-spacing: normal;
   text-align: center;
@@ -849,7 +841,6 @@ body {
   font-size: 3.15em;
   font-weight: 700;
   font-stretch: normal;
-  font-style: italic;
   line-height: 1.2;
   letter-spacing: normal;
   color: #000;
@@ -900,7 +891,6 @@ body {
   font-size: 1.9em;
   font-weight: 700;
   font-stretch: normal;
-  font-style: italic;
   letter-spacing: -0.9px;
   max-width: 9.43em;
   text-align: center;
@@ -1128,7 +1118,7 @@ body {
     left: 3%;
     line-height: 1.1;
     text-align: right;
-    margin-right: 0.3em;
+    margin-right: 0.4em;
   }
   .bottom-text > span {
     font-size: 1.97em;
