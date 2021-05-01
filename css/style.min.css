@@ -799,6 +799,8 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
+  margin: 0 auto;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -835,6 +837,7 @@ body {
   width: 100%;
   max-width: 63.25em;
   z-index: 1;
+  margin: 0 auto;
 }
 
 .registration__text {
@@ -1088,6 +1091,7 @@ body {
   .registration {
     background-image: url(../img/mobile/registration-background.png);
     padding-top: 33.975em;
+    flex-direction: column;
   }
   .registration__background-text {
     font-size: 27.8em;
@@ -1103,12 +1107,13 @@ body {
   .registration__img-wrapper {
     position: relative;
     max-width: none;
+    margin-bottom: 24em;
   }
   .registration__img--mobile:first-child {
     margin-bottom: 5.25em;
   }
   .top-text {
-    left: 3%;
+    left: 2.5%;
     top: 1.2rem;
     line-height: 1.1;
     text-shadow: none;
@@ -1118,7 +1123,7 @@ body {
   }
   .bottom-text {
     text-shadow: none;
-    top: 9.3rem;
+    top: 54%;
     left: 3%;
     line-height: 1.1;
     text-align: right;
@@ -1126,9 +1131,6 @@ body {
   }
   .bottom-text > span {
     font-size: 1.97em;
-  }
-  .registration__img--mobile:nth-child(2n) {
-    margin-bottom: 24em;
   }
   .registration__button {
     font-size: 10em;
