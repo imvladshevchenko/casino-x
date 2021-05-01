@@ -951,9 +951,9 @@ body {
     margin: 0;
     padding: 0;
   }
-  .banner__text--left {
+  /* .banner__text--left {
     margin-bottom: 140%;
-  }
+  } */
   .banner__text {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -961,6 +961,7 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     margin-bottom: 0;
+    height: 167em;
   }
   .banner__left--black-arrow {
     padding: 4px 0 0 34px;
