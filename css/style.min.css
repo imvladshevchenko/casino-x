@@ -1077,9 +1077,9 @@ body {
   }
   .text-right > span {
     white-space: nowrap;
-    -webkit-transform: translateX(-2em);
-    -ms-transform: translateX(-2em);
-    transform: translateX(-2em);
+    -webkit-transform: translateX(-24%);
+    -ms-transform: translateX(-24%);
+    transform: translateX(-24%);
   }
   .bonus__button {
     padding: 0.5em 1.0125em 0.4em 1.0125em;
@@ -1107,8 +1107,8 @@ body {
     margin-bottom: 5.25em;
   }
   .top-text {
-    left: 0.35em;
-    top: 3.8em;
+    left: 3%;
+    top: 22%;
     line-height: 1;
     text-shadow: none;
   }
@@ -1117,8 +1117,8 @@ body {
   }
   .bottom-text {
     text-shadow: none;
-    top: 7.3em;
-    left: 3em;
+    top: 43%;
+    left: 3%;
     line-height: 1;
     text-align: right;
     margin-right: 13px;
