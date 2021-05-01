@@ -1077,9 +1077,9 @@ body {
   }
   .text-right > span {
     white-space: nowrap;
-    -webkit-transform: translateX(-24%);
-    -ms-transform: translateX(-24%);
-    transform: translateX(-24%);
+    -webkit-transform: translateX(-25%);
+    -ms-transform: translateX(-25%);
+    transform: translateX(-25%);
   }
   .bonus__button {
     padding: 0.5em 1.0125em 0.4em 1.0125em;
@@ -1101,6 +1101,7 @@ body {
     display: none;
   }
   .registration__img-wrapper {
+    position: relative;
     max-width: none;
   }
   .registration__img--mobile:first-child {
@@ -1108,7 +1109,7 @@ body {
   }
   .top-text {
     left: 3%;
-    top: 22%;
+    top: 3%;
     line-height: 1.1;
     text-shadow: none;
   }
@@ -1117,7 +1118,7 @@ body {
   }
   .bottom-text {
     text-shadow: none;
-    top: 43%;
+    top: 29%;
     left: 3%;
     line-height: 1.1;
     text-align: right;
