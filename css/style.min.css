@@ -1123,7 +1123,8 @@ body {
   }
   .bottom-text {
     text-shadow: none;
-    top: 4em;
+    top: unset;
+    bottom: 1%;
     left: 3%;
     line-height: 1.1;
     text-align: right;
