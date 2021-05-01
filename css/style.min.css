@@ -952,7 +952,7 @@ body {
     padding: 0;
   }
   .banner__text--left {
-    margin-bottom: 102em;
+    margin-bottom: 140%;
   }
   .banner__text {
     -webkit-box-orient: vertical;
