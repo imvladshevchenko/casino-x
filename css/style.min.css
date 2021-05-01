@@ -960,6 +960,7 @@ body {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    margin-bottom: 0;
   }
   .banner__left--black-arrow {
     padding: 4px 0 0 34px;
