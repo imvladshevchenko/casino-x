@@ -548,7 +548,7 @@ body {
 
 .banner__button {
   padding: 0.3em 2.11em;
-  border-radius: 50px;
+  border-radius: 60px;
   -webkit-box-shadow: 0 0 15px 13px rgba(255, 255, 255, 0.4);
   box-shadow: 0 0 15px 13px rgba(255, 255, 255, 0.4);
   border: solid 2px #fff;
@@ -744,8 +744,8 @@ body {
 }
 
 .bonus__button {
-  padding: 0.45em 1.3625em;
-  border-radius: 36px;
+  padding: 0.45em 1.2625em;
+  border-radius: 60px;
   -webkit-box-shadow: 0 0 15px 13px rgba(255, 255, 255, 0.4);
   box-shadow: 0 0 15px 13px rgba(255, 255, 255, 0.4);
   border: solid 2px #fff;
@@ -873,8 +873,8 @@ body {
 }
 
 .registration__button {
-  padding: 0.45em 1.3625em;
-  border-radius: 36px;
+  padding: 0.45em 2.0625em;
+  border-radius: 60px;
   border: solid 2px #fff;
   background-image: -webkit-gradient(
     linear,
