@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 
 img {
@@ -442,6 +443,12 @@ body {
   margin-left: -1.29em;
   padding: 0.3em 0.4em 0.2em 0.55em;
   margin-left: 7em;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-transition-delay: 0.3s;
+  -moz-transition-delay: 0.3s;
+  transition-delay: 0.3s;
 }
 
 .banner__left--black-arrow {
@@ -500,6 +507,12 @@ body {
   flex-direction: column;
   line-height: 1.2;
   padding: 0.4em 0.22em 0.44em 0.74em;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-transition-delay: 0.3s;
+  -moz-transition-delay: 0.3s;
+  transition-delay: 0.3s;
 }
 
 .left-top__text {
@@ -780,6 +793,14 @@ body {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+.slot, .deposite {
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-transition-delay: 0.3s;
+  -moz-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
 
 .registration {
   background-image: url(../img/registration/background.png);
@@ -830,6 +851,7 @@ body {
   max-width: 63.25em;
   z-index: 1;
   margin: 0 auto;
+  
 }
 
 .registration__text {
@@ -901,6 +923,12 @@ body {
   margin-bottom: 4.4em;
   text-transform: uppercase;
   -webkit-text-size-adjust: 88%;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-transition-delay: 0.3s;
+  -moz-transition-delay: 0.3s;
+  transition-delay: 0.3s;
 }
 
 @media (max-width: 500px) {
@@ -961,7 +989,7 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     margin-bottom: 0;
-    height: 167em;
+    height: 166em;
   }
   .banner__left--black-arrow {
     padding: 4px 0 0 34px;
