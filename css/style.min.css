@@ -1123,11 +1123,11 @@ body {
   }
   .bottom-text {
     text-shadow: none;
-    top: 54%;
+    top: 4em;
     left: 3%;
     line-height: 1.1;
     text-align: right;
-    margin-right: 13px;
+    margin-right: 16px;
   }
   .bottom-text > span {
     font-size: 1.97em;
