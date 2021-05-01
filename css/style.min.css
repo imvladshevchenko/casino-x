@@ -725,7 +725,7 @@ body {
   font-size: 0.596em;
   font-weight: 700;
   font-stretch: normal;
-  line-height: 1.8;
+  line-height: 2;
   letter-spacing: normal;
   text-align: left;
   color: rgba(255, 255, 255, 0.9);
@@ -1114,9 +1114,9 @@ body {
   .bottom-text {
     text-shadow: none;
     top: unset;
-    bottom: 0.1em;
+    bottom: 0.25em;
     left: 3%;
-    line-height: 1.1;
+    line-height: 1;
     text-align: right;
     margin-right: 0.4em;
   }
