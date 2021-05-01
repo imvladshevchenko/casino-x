@@ -722,7 +722,7 @@ body {
   letter-spacing: normal;
   text-align: left;
   color: #e50124;
-  -webkit-text-size-adjust: 80%;
+  -webkit-text-size-adjust: 100%;
 }
 
 .bonus__text > span {
@@ -735,7 +735,7 @@ body {
   letter-spacing: normal;
   text-align: left;
   color: rgba(255, 255, 255, 0.9);
-  -webkit-text-size-adjust: 80%;
+  -webkit-text-size-adjust: 100%;
 }
 
 .text-left {
