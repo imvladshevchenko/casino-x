@@ -443,17 +443,7 @@ body {
   padding: 0.3em 0.4em 0.2em 0.55em;
   margin-left: 7em;
   opacity: 0;
-  visibility: hidden;
-  -webkit-transform: translateX(-30%) rotate(0.01deg);
-  -moz-transform: translateX(-30%) rotate(0.01deg);
-  -ms-transform: translateX(-30%) rotate(0.01deg);
-  transform: translateX(-30%) rotate(0.01deg);
-  -webkit-transition: transform, opacity 0.5s ease-in-out;
-  -moz-transition: transform, opacity 0.5s ease-in-out;
-  transition: transform, opacity 0.5s ease-in-out;
-  -webkit-transition-delay: 0.3s;
-  -moz-transition-delay: 0.3s;
-  transition-delay: 0.3s;
+  transform: translateX(-30%);
 }
 
 .banner__left--black-arrow {
@@ -524,12 +514,10 @@ body {
 }
 
 .visible {
-  visibility: visible;
   opacity: 1;
-  -webkit-transform: translateX(0) rotate(0.01deg);
-  -moz-transform: translateX(0) rotate(0.01deg);
-  -ms-transform: translateX(0) rotate(0.01deg);
-  transform: translateX(0) rotate(0.01deg);
+  transform: translateX(0);
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.3s;
 }
 
 .left-top__text {
