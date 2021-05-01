@@ -3,7 +3,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  -webkit-text-size-adjust: none;
 }
 
 img {
@@ -511,6 +510,7 @@ body {
   letter-spacing: normal;
   color: #fff;
   font-family: Rubrica;
+  -webkit-text-size-adjust: 100%;
 }
 
 .left-bottom__text {
@@ -521,6 +521,7 @@ body {
   letter-spacing: normal;
   color: #000;
   font-family: Rubrica;
+  -webkit-text-size-adjust: 100%;
 }
 
 .right-top__text {
@@ -531,6 +532,7 @@ body {
   letter-spacing: normal;
   color: #000;
   font-family: Rubrica;
+  -webkit-text-size-adjust: 100%;
 }
 
 .right-bottom__text {
@@ -541,6 +543,7 @@ body {
   letter-spacing: normal;
   color: #ffde00;
   font-family: Rubrica;
+  -webkit-text-size-adjust: 100%;
 }
 
 .banner__button {
@@ -561,6 +564,7 @@ body {
   background-image: linear-gradient(to top, #b7ee57, #3ad737, #2db22a);
   text-shadow: -0.3px 1px 1px rgba(0, 0, 0, 0.63);
   font-family: Rubrica;
+  -webkit-text-size-adjust: 100%;
   font-size: 2.5em;
   font-weight: 700;
   font-stretch: normal;
@@ -621,6 +625,7 @@ body {
   text-align: center;
   color: #ffde00;
   margin-bottom: 11px;
+  -webkit-text-size-adjust: 100%;
 }
 
 .bonus__subtitle {
@@ -634,6 +639,7 @@ body {
   text-align: center;
   color: #fff;
   margin-bottom: 1.2em;
+  -webkit-text-size-adjust: 100%;
 }
 
 .bonus__background-text {
@@ -650,6 +656,7 @@ body {
   letter-spacing: normal;
   text-align: center;
   color: rgba(255, 255, 255, 0.1);
+  -webkit-text-size-adjust: 100%;
 }
 
 @media (min-width: 500px) {
@@ -715,6 +722,7 @@ body {
   letter-spacing: normal;
   text-align: left;
   color: #e50124;
+  -webkit-text-size-adjust: 100%;
 }
 
 .bonus__text > span {
@@ -727,6 +735,7 @@ body {
   letter-spacing: normal;
   text-align: left;
   color: rgba(255, 255, 255, 0.9);
+  -webkit-text-size-adjust: 100%;
 }
 
 .text-left {
@@ -771,6 +780,7 @@ body {
   transition: box-shadow 0.3s ease;
   transition: box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
   text-transform: uppercase;
+  -webkit-text-size-adjust: 100%;
 }
 
 .bonus__button:hover {
@@ -809,6 +819,7 @@ body {
   text-align: center;
   color: rgba(255, 255, 255, 0.1);
   z-index: 0;
+  -webkit-text-size-adjust: 100%;
 }
 
 .registration__img-wrapper {
@@ -840,6 +851,7 @@ body {
   letter-spacing: normal;
   color: #000;
   text-transform: uppercase;
+  -webkit-text-size-adjust: 100%;
 }
 
 .registration__img--desktop {
@@ -895,6 +907,7 @@ body {
   align-self: center;
   margin-bottom: 4.4em;
   text-transform: uppercase;
+  -webkit-text-size-adjust: 100%;
 }
 
 @media (max-width: 500px) {
