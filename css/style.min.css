@@ -991,7 +991,7 @@ body {
   }
   .right-bottom__text {
       font-size: 7.625em;
-      webkit-text-size-adjust: 88%;
+      -webkit-text-size-adjust: 88%;
   }
   .banner__button {
       padding: 0.21em 1.56em;
