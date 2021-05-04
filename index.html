@@ -7,6 +7,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="./assets/fav/favicon.ico" />
 	<title>Casino-x</title>
 	<link rel="stylesheet" href="./css/style.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 </head>
@@ -85,13 +86,15 @@
 				за свой первый депозит</p>
 			<span class="bonus__background-text">бонусы</span>
 			<div class="bonus__img-wrapper">
-				<div class="bonus__props slot">
+				<div class="bonus__props slot" data-aos="fade-right" data-aos-delay="300" data-aos-duration="900"
+					data-aos-easing="ease-in-out" data-aos-once="true">
 					<img class="bonus__img--mobile" src="./img/mobile/slot.png" alt="">
 					<img class="bonus__img--desktop" src="./img/bonuses/slot.png" alt="">
 					<p class="bonus__text text-left">200 ФРИСПИНОВ<span class="bonus__subtext">
 							за депозит</span></p>
 				</div>
-				<div class="bonus__props deposite">
+				<div class="bonus__props deposite" data-aos="fade-left" data-aos-delay="600" data-aos-duration="900"
+				data-aos-easing="ease-in-out" data-aos-once="true">
 					<img class="bonus__img--mobile" src="./img/mobile/bonus.png" alt="">
 					<img class="bonus__img--desktop" src="./img/bonuses/bonus.png" alt="">
 
@@ -104,20 +107,26 @@
 		<section class="registration">
 			<span class="registration__background-text">СТАРТУЙ</span>
 			<div class="registration__img-wrapper">
-				<img class="registration__img--mobile animation-left" src="./img/mobile/arrow-yellow.png" alt="">
-				<img class="registration__img--desktop animation-left" src="./img/registration/arrow-yellow.png" alt="">
-				<p class="registration__text top-text animation-left">Спеши забрать <span>бонусы</span></p>
-				<img class="registration__img--mobile animation-right" src="./img/mobile/arrow-white.png" alt="">
-				<img class="registration__img--desktop animation-right" src="./img/registration/arrow-white.png" alt="">
-				<p class="registration__text bottom-text animation-right"><span>супер</span> предложение</p>
+				<img data-aos="fade-right" data-aos-delay="300" data-aos-duration="900"
+				data-aos-easing="ease-in-out" data-aos-once="true" class="registration__img--mobile" src="./img/mobile/arrow-yellow.png" alt="">
+				<img data-aos="fade-right" data-aos-delay="300" data-aos-duration="900"
+				data-aos-easing="ease-in-out" data-aos-once="true" class="registration__img--desktop" src="./img/registration/arrow-yellow.png" alt="">
+				<p data-aos="fade-right" data-aos-delay="300" data-aos-duration="900"
+				data-aos-easing="ease-in-out" data-aos-once="true" class="registration__text top-text">Спеши забрать <span>бонусы</span></p>
+				<img data-aos="fade-left" data-aos-delay="600" data-aos-duration="900"
+				data-aos-easing="ease-in-out" data-aos-once="true" class="registration__img--mobile" src="./img/mobile/arrow-white.png" alt="">
+				<img data-aos="fade-left" data-aos-delay="600" data-aos-duration="900"
+				data-aos-easing="ease-in-out" data-aos-once="true" class="registration__img--desktop" src="./img/registration/arrow-white.png" alt="">
+				<p data-aos="fade-left" data-aos-delay="600" data-aos-duration="900"
+				data-aos-easing="ease-in-out" data-aos-once="true" class="registration__text bottom-text"><span>супер</span> предложение</p>
 
 			</div>
 			<a href="" class="registration__button">Регистрация</a>
 		</section>
 	</div>
 
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="./js/main.min.js"></script>
-
 
 </body>
 
